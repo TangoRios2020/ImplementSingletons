@@ -16,3 +16,10 @@ class Logger {
         print(message)
     }
 }
+
+// ways 01: using a log protocol
+protocol Logging {
+    func logWithProtocol(_ message: String)
+}
+
+
